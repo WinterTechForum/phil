@@ -6,10 +6,10 @@ It is a simple "hello world" style web service app written in Go.
 ## Build
 
 ### Dependencies
-This project uses [Gorilla Mux](https://github.com/gorilla/mux).  
+Dependencies are described via `dep` in `Gopkg.toml`
 
 ```bash
-go get github.com/gorilla/mux
+dep ensure
 ```
 
 ### Local
